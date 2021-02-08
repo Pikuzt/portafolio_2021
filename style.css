@@ -1,0 +1,55 @@
+*{
+ padding:0;
+ margin:0;
+ font-family: 'Raleway', sans-serif;
+
+}
+
+
+body{
+    background: url(img/oriental-tiles.png);
+}
+
+/* creando menu*/
+
+.contenedor-menu{    
+    width:3%;
+    height: 100vh;
+    background-color:bisque;    
+    display:flex;
+    z-index:1;
+    flex-direction: column-reverse;     
+    
+}
+
+.contenedor-menu nav{
+    position: fixed;
+    top: 0;
+}
+
+.item-menu{
+    align-items: center;
+    padding:1rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+i{
+    
+    color:black;
+    font-size:1rem;
+}
+
+.presentacion{
+    z-index: 8;
+    position: absolute;
+    width: 95%;
+    background-color: white;
+    right: 0;
+    top: 0;
+    padding:1rem;
+    margin:1rem;
+}
+
+
+
